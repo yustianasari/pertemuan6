@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int nilaites, nilaiuts, nilaiuas, nilaitugas, nilaiakhir;
+
+	cout<<"Nilai TES= ";
+	cin>>nilaites;
+
+	cout<<"Nilai UTS= ";
+	cin>>nilaiuts;
+
+	cout<<"Nilai UAS= ";
+	cin>>nilaiuas;
+
+	cout<<"Nilai Tugas= ";
+	cin>>nilaitugas;
+
+	nilaiakhir= (0.2*nilaites)+(0.3*nilaiuts)+(0.3*nilaiuas)+(0.2*nilaitugas);
+	
+	cout << "Nilai AKhir= " <<nilaiakhir<<endl;
+	
+	if (nilaiakhir <= 50){
+	    cout<<"Nilai Indeks= D";
+	} else if ((nilaiakhir<=70) && (nilaiakhir>50)){
+	    cout<<"Nilai Indeks= C";
+	} else if ((nilaiakhir<=80) && (nilaiakhir>70)){
+	    cout<<"Nilai Indeks= B";
+	} else{
+	    cout<<"Nilai Indeks= A";
+	}
+	
+	return 0;
+}
