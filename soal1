@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int angka;
+
+	cout<<"masukan angka biasa:";
+	cin>>angka;
+	
+	if (angka == 1) {
+		cout<<"I";
+	}
+	else if (angka == 2){
+		cout<<"II";
+	}
+	else if (angka == 3){
+		cout<<"III";
+	}
+	else if (angka == 4){
+		cout<<"IV";
+	}
+	else if (angka == 5){
+		cout<<"V";
+	}
+	else if (angka == 6){
+		cout<<"VI";
+	}
+	else if (angka == 7){
+		cout<<"VII";
+	}
+	else if (angka == 8){
+		cout<<"VIII";
+	}
+	else if (angka == 9){
+		cout<<"IX";
+	}
+	else {
+		cout<<"X";
+	}
+	return 0;
+}
